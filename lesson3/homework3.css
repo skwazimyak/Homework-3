@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color: black;
+    width: 404px;
+    height: 490px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.icon{
+    margin-top: 10px;
+}
+.text{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 29px;
+    color: white;
+    letter-spacing: 11px;
+    margin-top: 15px;
+}
+
+.buttons{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.button{
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 19px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: white;
+    padding: 0px;
+    margin-bottom: 25px;
+    width: 302px;
+    height: 55px;
+    border: 4px solid white;
+    background-color: black;
+}
