@@ -24,7 +24,7 @@ body{
     margin-top: 15px;
 }
 
-.buttons{
+.links{
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -32,14 +32,17 @@ body{
 }
 
 
-.button{
+.link{
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
     font-family: "Montserrat";
     font-weight: 800;
     font-size: 19px;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: white;
-    padding: 0px;
+    padding-top: 12px;
     margin-bottom: 25px;
     width: 302px;
     height: 55px;
